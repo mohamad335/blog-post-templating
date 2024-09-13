@@ -1,0 +1,13 @@
+first i open Start Bootstrap's website and download the Clean Blog Template
+create static and templates folders and put all file in the right folder
+use flask to get the home page by render when you go to localhost 
+i create to html file footer and header 
+i fix the header and footer on index file so that css and javascript get works 
+i use jinja  because it makes it easier to create HTML pages by templating. Instead of re-writing the same header/navigation bar/footer you can just create a header and footer template which can then be applied to all web pages in your website.
+so i delete the footer and header  on index and replace them by header.html file and footer.html file by use include method
+also i do the same on contact and about 
+then i use the data from the API to render the home page, replacing the title, subtitle, author and dates of each blog post with the data from the API. (Add fields as necessary to your document.)
+finally i render each individual post in the post.html page. When a user clicks on a particular post title on the home page (index.html), we should take them to the post.html page where the title/subtitle/image/date/author/body of the post is shown.
+
+
+
