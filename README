@@ -8,6 +8,6 @@ so i delete the footer and header  on index and replace them by header.html file
 also i do the same on contact and about 
 then i use the data from the API to render the home page, replacing the title, subtitle, author and dates of each blog post with the data from the API. (Add fields as necessary to your document.)
 finally i render each individual post in the post.html page. When a user clicks on a particular post title on the home page (index.html), we should take them to the post.html page where the title/subtitle/image/date/author/body of the post is shown.
-
+the last thing is we update the contact.html to get contact with us and i use the data from the form to actually send an email to ourselves with the data submitted by the user in our Flask server.
 
 
