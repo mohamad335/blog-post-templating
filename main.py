@@ -1,8 +1,8 @@
 from flask import Flask,render_template
 import requests
 import smtplib
-my_email="mhamdl2amen@gmail.com"
-my_password="rlnhisqivnloudab"
+my_email="type your email"
+my_password="type password"
 
 from flask import request
 API_KEY = "https://api.npoint.io/649f1724390381724336"
